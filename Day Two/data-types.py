@@ -27,3 +27,24 @@ print(123+345) #Actual numbers
 True
 False
 
+#Checks variable type
+num_char = len(input("What is your name?"))
+print(type(num_char)) 
+
+#Results to an error
+print("Your name has " + num_char + " characters.") #You can only combine same data types together, eg string to string or int to int
+
+#Change data type from int to string
+
+num_str = str(num_char)
+print("Your name has " + num_str + " characters.") #Code now runs
+
+#Change to float
+a = float(123)
+print(type(a))
+
+print (100 + float(200.44)) #Adds normally; 300.44
+
+print (str(40) + str(60)) #Prints the number 4060
+
+
