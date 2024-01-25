@@ -1,3 +1,9 @@
+# Logical Operators
+
+# A and B - both A and B have to be true
+# C or D - either one of them has to be true
+# not E - reverse 
+
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 
@@ -14,6 +20,8 @@ if height > 120:
     elif age <= 18:
         bill = 7
         print("Youth tickets are $7")
+    elif age >= 45 and age <= 55:
+        print("You get a free ride.")
     else:
         bill = 12
         print("Adult tickets are $12")
